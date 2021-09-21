@@ -20,6 +20,7 @@ function App() {
         <span>emojipedia</span>
       </h1>
       <dl className="dictionary">{emojipedia.map(createCard)}</dl>
+      <footer>Made by Michael Satumba</footer>
     </div>
   );
 }
